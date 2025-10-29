@@ -15,7 +15,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr min-content 1fr;
-  padding: 10px; 
+  padding: 10px;
   align-items: center;
   position: relative;
   font-family: var(--font-family);
@@ -235,6 +235,7 @@
 @media (width >= 768px) {
   .header {
     padding: 20px;
+    margin-bottom: 60px;
   }
 
   .header__title {
@@ -272,10 +273,6 @@
     grid-template-columns: 1fr 472px;
   }
 
-  .header {
-    margin-bottom: 60px;
-  }
-
   .main {
     --padding-inline: 20px;
     gap: 80px;
@@ -294,6 +291,8 @@
   .content__container-image-item {
     block-size: 100%;
     object-fit: cover;
+    gap: 20px;
+    margin-top: 20px;
   }
     
   .content__container-image-item:nth-child(1) {
@@ -312,11 +311,6 @@
   .content__container-image-item:nth-child(5) {
     grid-column: 2 / 4;
     grid-row: 3;
-  }
-
-  .content__container-image {
-    gap: 20px;
-    margin-top: 20px;
   }
 }
 
