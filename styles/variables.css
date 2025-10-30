@@ -3,8 +3,8 @@
   и их переопределение под различные устройства
 */
 :root {
-  --bg-image-main: url(/slozhno-sosredotochitsya-fd/images/cover-image.png);
-  --bg-image-theme: url(/slozhno-sosredotochitsya-fd/images/cover-image-dark.png);
+  --bg-image-main: url("../images/cover-image.png");
+  --bg-image-theme: url("../images/cover-image-dark.png");
 
   --big-title-size-mob: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --big-title-size-dec: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);

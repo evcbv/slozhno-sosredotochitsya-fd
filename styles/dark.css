@@ -9,12 +9,15 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --bg-image-theme: url(/slozhno-sosredotochitsya-fd/images/cover-image-dark.png);
+  --bg-image-theme: url("../images/cover-image-dark.png");;
   --bg-color: #000028;
   --title-color: #DB00FF;
   --subtitle-color: #000;
   --accent-color: #FF0070;
+  --section-title-color: #FF0070;
   --container-title-color: #000;
   --container-subtitle-color: #F1B2CE;
   --border-color: #FF0070;
+  --hidden-rec: initial;
+  --border-hover:  rgba(255, 0, 112, 0.4);
 }
