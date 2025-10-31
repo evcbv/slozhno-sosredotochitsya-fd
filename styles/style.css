@@ -30,7 +30,7 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
-  padding-left: 1px;
+  align-items: center;
 }
 
 .header__theme-menu-button {
@@ -47,7 +47,6 @@
 
 .header__theme-menu-button_active {
   border: 1px solid var(--border-color);
-  text-align: center;
   padding: 3px 12.5px;
   pointer-events: none;
 }
@@ -185,6 +184,7 @@
 
 .text__link:focus-visible {
   border: 1px solid var(--container-subtitle-color);
+  outline: none;
 }
 
 .text__link:focus {
@@ -337,7 +337,7 @@
   .header__theme-menu-list {
     flex-direction: initial;
     gap: 22px;
-    padding-left: 8px;
+    padding-right: 10px;
   }
 
   .header__subtitle {
