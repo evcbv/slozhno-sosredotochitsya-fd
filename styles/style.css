@@ -29,7 +29,7 @@
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 13px;
   align-items: center;
 }
 
@@ -43,11 +43,11 @@
   font-size: 18px;
   line-height: 18px;
   text-align: center;
+  padding: 3px 12.5px;
 }
 
 .header__theme-menu-button_active {
   border: 1px solid var(--border-color);
-  padding: 3px 12.5px;
   pointer-events: none;
 }
 
@@ -336,8 +336,6 @@
 
   .header__theme-menu-list {
     flex-direction: initial;
-    gap: 22px;
-    padding-right: 10px;
   }
 
   .header__subtitle {
